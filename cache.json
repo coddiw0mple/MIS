@@ -1,29 +1,6 @@
 {
     "open_con": "",
     "open_vals": "",
-    "closed_cons": [
-        [
-            "Burglary",
-            "Alarm"
-        ],
-        [
-            "Earthquake",
-            "Alarm"
-        ],
-        [
-            "Alarm",
-            "MaryCalls"
-        ],
-        [
-            "Alarm",
-            "JohnCalls"
-        ]
-    ],
-    "con_vals": {
-        "Alarm": "0.999 0.71 0.06 0.05\n0.001 0.29 0.94 0.95",
-        "Burglary": "0.999\n0.001",
-        "Earthquake": "0.998\n0.002",
-        "MaryCalls": "0.1 0.7\n0.9 0.3",
-        "JohnCalls": "0.95 0.1\n0.05 0.9"
-    }
+    "closed_cons": [],
+    "con_vals": {}
 }

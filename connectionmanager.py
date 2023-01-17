@@ -64,5 +64,3 @@ def compute():
     print(infer_non_adjust.query(variables=["Alarm"], evidence={"Burglary": 0, "Earthquake": 0}))
 
     main.mainloop()
-
-compute()

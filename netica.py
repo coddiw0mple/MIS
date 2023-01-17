@@ -42,7 +42,7 @@ def clean_cons():
 # Add widgets in frames
 new_box=tk.Button(button_container, text="New Box", command=new_box)
 new_con=tk.Button(button_container, text="Clean", command=clean_cons)
-save_btn=tk.Button(button_container, text="Run", command=compute)
+save_btn=tk.Button(button_container, text="Compute", command=compute)
 
 new_box.pack(side="left", padx= 10)
 new_con.pack(side="left", padx= 10)
@@ -70,7 +70,6 @@ click_num=0
 
 txt_label=tk.Label(side_container, text=" "*1000)
 txt_label.pack(side= "bottom", padx=10)
-
 
 txt_label=tk.Label(attribute_container, text=" "*1000)
 txt_label.pack(side= "bottom", padx=10)

@@ -19,7 +19,8 @@ class Draggable():
             print(data["open_vals"], data["open_con"])
         else:
             data["closed_cons"].append([data["open_con"], self.title.cget("text")])
-            data["con_vals"].append([data["open_vals"], self.notes.get("1.0", "end-1c")])
+            data["con_vals"][self.title.cget("text")] = self.notes.get("1.0", "end-1c")
+            data["con_vals"][data["open_con"]] = data["open_vals"]
             data["open_con"] = ""
             data["open_vals"] = ""
             print(data["closed_cons"])
